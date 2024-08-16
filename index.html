@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+    
+
+            <!-- navbar start -->
+            <div class="navbar bg-base-100 bg-primary text-primary-content">
+                <div class="flex-1">
+                    <button class="btn btn-ghost text-xl">Personal Blogging App</button>
+                </div>
+                <div class="flex-none">
+                  <ul class="menu menu-horizontal px-1">
+                    <button id="logout">Logout</button>
+                </ul>
+                </div>
+              </div>
+            <!-- navbar end -->
+            <div class="navbar bg-[#FFF6F6]">
+                <div class="mx-2 flex-1 px-2"><b>Dashboard</b>
+                </div>
+            </div>
+
+
+
+            <!-- post add -->
+            <!-- <div class="navbar bg-base-100 bg-primary text-primary-content">
+            <form id="form-add">
+                <input type="text" placeholder="placeholder" id="title"><br>
+                <input type="text" placeholder="What is in your mind" id="description"><br>
+                <div class="text-center mt-5">
+                    <button type="submit" class="btn btn-primary">Publish Blog</button>
+                </div>
+            </form>
+        </div> -->
+
+        
+
+
+
+        <div class="h-[40vh] flex justify-center items-center">
+            <form id="form-add" class=" bg-[#FFF6F6] w-[400px] p-[20px] rounded-[10px] flex gap-[10px] flex-col" >
+                <input
+                type="text"
+                placeholder="Type here"
+                class="input input-bordered input-info w-full max-w-xs" id="title"/>
+
+                
+    
+                <textarea
+                placeholder="Bio"
+                class="textarea textarea-bordered textarea-lg w-full max-w-xs" id="description"></textarea>
+
+                <div class="text-center mt-5">
+                    <button type="submit" class="btn btn-primary">Publish Blog</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="div"></div>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

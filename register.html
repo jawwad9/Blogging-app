@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+
+
+            <!-- navbar start -->
+            <div class="navbar bg-base-100 bg-primary text-primary-content">
+                <div class="flex-1">
+                    <button class="btn btn-ghost text-xl">Personal Blogging App</button>
+                </div>
+                <div class="flex-none">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a href="login.html">Login</a></li>
+                  </ul>
+                </div>
+              </div>
+            <!-- navbar end -->
+            <div class="navbar bg-[#FFF6F6]">
+                <div class="mx-2 flex-1 px-2"><b>Signup</b>
+                </div>
+            </div>
+
+    
+    <div class="h-[80vh] flex justify-center items-center mt-5">
+        <form id="form" class=" bg-[#FFF6F6] w-[400px] p-[70px] rounded-[10px] flex gap-[10px] flex-col">
+            <label class="input input-bordered flex items-center gap-2">
+                <input id="firstname" type="text" class="grow" placeholder="Frist Name" />
+            </label>
+            <label class="input input-bordered flex items-center gap-2">
+
+                <input id="lastname" type="text" class="grow" placeholder="Last Name" />
+            </label>
+            <label class="input input-bordered flex items-center gap-2">
+                <input id="email" type="text" class="grow" placeholder="Email" />
+            </label>
+
+            <label class="input input-bordered flex items-center gap-2">
+                <input id="password" type="password" class="grow" value="password" />
+            </label>
+            <div class="text-center mt-5">
+                <button type="submit" class="btn btn-primary">Signup</button>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="register.js"></script>
+</body>
+</html>
