@@ -2,7 +2,7 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>ApgdhfjkggghjhhnxzFzxcmv,mcnxbzfzbxncp</div>
+    <div>App</div>
   )
 }
 
